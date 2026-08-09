@@ -63,10 +63,23 @@ body {
 
     overflow-x: hidden;
 }
-
 img {
-    max-width: 100%;
     display: block;
+    max-width: 100%;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+}
+.hero-image,
+.solution-image img,
+.why-visual img,
+.process-image img,
+.feature-image img,
+.cta-image img,
+.footer-logo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
 }
 
 a {
